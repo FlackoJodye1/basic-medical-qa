@@ -1,0 +1,13 @@
+name: basic-med-qa
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - openai
+      - transformers
+      - torch
+      - flask
